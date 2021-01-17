@@ -1,0 +1,38 @@
+{
+  "name": "mekuteriya.js",
+  "version": "0.1.0",
+  "description": "Javascript library for converting any dates between Gregorian and Ethiopian calendars",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mekuteriya/mekuteriya.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mekuteriya/mekuteriya.js/issues"
+  },
+  "homepage": "https://github.com/mekuteriya/mekuteriya.js#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "rollup": "^2.36.1",
+    "rollup-plugin-babel-minify": "^10.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}
